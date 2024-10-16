@@ -21,3 +21,6 @@ classifiers = [
 Homepage = "https://github.com/larkintuckerllc/sampleproject"
 Issues = "https://github.com/larkintuckerllc/sampleproject/issues"
 
+[project.scripts]
+my-script = "example_package_jtucker.console_scripts:my_script"
+
